@@ -28,7 +28,7 @@ except:
     # board.digital[redLed].write(off)
 
 
-cap = cv2.VideoCapture('carPark.mp4')
+cap = cv2.VideoCapture('http://192.168.1.152:4747/video')
 
 with open('CarParkPos','rb') as f:
       posList = pickle.load(f)  
